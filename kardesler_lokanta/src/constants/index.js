@@ -17,20 +17,20 @@ import {
 
 export const navLinks = [
   {
-    id: "home",
-    title: "Home",
+    id: "anasayfa",
+    title: "Anasayfa",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "hakkımızda",
+    title: "Hakkımızda",
   },
   {
-    id: "product",
-    title: "Product",
+    id: "menü",
+    title: "Menü",
   },
   {
-    id: "clients",
-    title: "Clients",
+    id: "iletişim",
+    title: "İletişim",
   },
 ];
 
@@ -38,23 +38,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Popüler",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Popüler kebap salonumuz, lezzet dolu menü seçenekleri ve samimi atmosferi ile müşteri favorisi olmaya devam ediyor!",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "100% Güven",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Kebap deneyiminde %100 güvenilir ve müşteri odaklı hizmet sunuyoruz!",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Hızlı Gönderim",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Kebap keyfi, hızlı gönderimle kapınıza gelsin, lezzetin tadını doruklarda çıkarın!",
   },
 ];
 
@@ -88,18 +88,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "GÜNLÜK ONLINE MÜŞTERİ",
+    value: "20+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "GÜNLÜK NORMAL MÜŞTERİ",
+    value: "50+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "MUTLU MÜŞTERİ",
+    value: "1000+",
   },
 ];
 
