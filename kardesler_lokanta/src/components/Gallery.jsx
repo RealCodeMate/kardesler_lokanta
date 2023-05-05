@@ -5,38 +5,48 @@ const Gallery = () => {
   const images = [
     {
       id: 1,
-      src: "https://source.unsplash.com/random/800x800?mountain",
+      src: "https://github.com/RealCodeMate/kardesler_lokanta/blob/main/kardesler_lokanta/src/assets/gallery/g1.jpeg?raw=true",
       alt: "Mountain",
     },
     {
       id: 2,
-      src: "https://source.unsplash.com/random/800x800?beach",
+      src: "https://github.com/RealCodeMate/kardesler_lokanta/blob/main/kardesler_lokanta/src/assets/gallery/g2.jpeg?raw=true",
       alt: "Beach",
     },
     {
       id: 3,
-      src: "https://source.unsplash.com/random/800x800?forest",
+      src: "https://github.com/RealCodeMate/kardesler_lokanta/blob/main/kardesler_lokanta/src/assets/gallery/g3.jpeg?raw=true",
       alt: "Forest",
     },
     {
       id: 4,
-      src: "https://source.unsplash.com/random/800x800?city",
+      src: "https://github.com/RealCodeMate/kardesler_lokanta/blob/main/kardesler_lokanta/src/assets/gallery/g4.jpeg?raw=true",
       alt: "City",
     },
     {
       id: 5,
-      src: "https://source.unsplash.com/random/800x800?building",
+      src: "https://github.com/RealCodeMate/kardesler_lokanta/blob/main/kardesler_lokanta/src/assets/gallery/g5.jpeg?raw=true",
       alt: "Building",
     },
     {
       id: 6,
-      src: "https://source.unsplash.com/random/800x800?road",
+      src: "https://github.com/RealCodeMate/kardesler_lokanta/blob/main/kardesler_lokanta/src/assets/gallery/g6.jpeg?raw=true",
+      alt: "Road",
+    },
+    {
+      id: 7,
+      src: "https://github.com/RealCodeMate/kardesler_lokanta/blob/main/kardesler_lokanta/src/assets/gallery/g7.jpeg?raw=true",
+      alt: "Road",
+    },
+    {
+      id: 8,
+      src: "https://github.com/RealCodeMate/kardesler_lokanta/blob/main/kardesler_lokanta/src/assets/gallery/g8.jpeg?raw=true",
       alt: "Road",
     },
   ];
 
   return (
-    <div>
+    <div id="galeri">
       <div>
         <h2 className={`${styles.heading2} text-center mt-10 mb-10`}>Galeri</h2>
       </div>
