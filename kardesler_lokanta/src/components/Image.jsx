@@ -1,7 +1,11 @@
 import React from "react";
 const Image = ({ src, alt }) => {
   return (
-    <img className="w-full h-full object-cover rounded" src={src} alt={alt} />
+    <img
+      className="w-[500px] h-[500px] object-center  rounded-2xl "
+      src={src}
+      alt={alt}
+    />
   );
 };
 
