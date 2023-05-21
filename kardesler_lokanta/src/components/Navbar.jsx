@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
+import "../css/navbar.css";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -13,7 +14,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar">
+    <nav className=" w-full flex py-6 justify-between items-center navbar ">
       <img src={logo} alt="logo" className="w-[90px] h-[90px]" />
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1 ">
